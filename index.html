@@ -1,0 +1,524 @@
+<?
+session_start();
+if(!isset($_SESSION['utms'])) {
+    $_SESSION['utms'] = array();
+    $_SESSION['utms']['utm_source'] = '';
+    $_SESSION['utms']['utm_medium'] = '';
+    $_SESSION['utms']['utm_term'] = '';
+    $_SESSION['utms']['utm_content'] = '';
+    $_SESSION['utms']['utm_campaign'] = '';
+}
+$_SESSION['utms']['utm_source'] = $_GET['utm_source'];
+$_SESSION['utms']['utm_medium'] = $_GET['utm_medium'];
+$_SESSION['utms']['utm_term'] = $_GET['utm_term'];
+$_SESSION['utms']['utm_content'] = $_GET['utm_content'];
+$_SESSION['utms']['utm_campaign'] = $_GET['utm_campaign'];
+?>
+<!DOCTYPE html>
+
+<html>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-100085457-9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-100085457-9');
+</script>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>клатч от Baellerry - любовь с первого взгляда!</title>
+    <meta name="description"
+          content="клатч от Baellerry - любовь с первого взгляда! Великолепный подарок. Элегантный и практичный аксессуар. Выбор украинских и зарубежных селебритиз!">
+    <meta name="keywords" content="клатч от Baellerry, купить клатч Baellerry, цена Baellerry, Baellerry">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic" rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <script src="scripts/jquery.placeholder.js"></script>
+    <script src="scripts/UI.js"></script>
+
+    <link rel="stylesheet" href="styles/owl.carousel.css">
+    <link rel="stylesheet" href="styles/owl.theme.default.css">
+    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/roboto.css">
+    <link rel="stylesheet" href="styles/lightbox.css">
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/plugins.js" type="text/javascript"></script>
+    <script src="scripts/lightbox.js"></script>
+    <script src="scripts/detect.js" type="text/javascript"></script>
+    <script src="scripts/owl.carousel.js"></script>
+    <link href="styles/popup-m1-style.css?v=4" rel="stylesheet" type="text/css"/>
+    <script src="scripts/popup-m1.js?v=4" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            M1.initComebacker(3000);
+            var M1Text = {
+                'validation_name': 'Укажите корректные ФИО.',
+                'validation_phone1': 'Номер телефона может содержать только цифры, символы "+", "-", "(", ")" и пробелы.',
+                'validation_phone2': 'В вашем телефоне слишком мало цифр.',
+                'comebacker_text': 'ВНИМАНИЕ'
+            };
+            M1.validateAndSendForm(false, M1Text);
+        });
+    </script>
+
+
+    <script src="scripts/vtracker.js" type="text/javascript"></script>
+
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1827812164171780');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=1827812164171780&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="logo-section">
+            <div class="logo-text">
+               СТИЛЬНЫЙ МУЖСКОЙ КЛАТЧ <br/>
+                 СКИДКА -58%. <br/>
+            </div>
+        </div>
+        <ul class="menu">
+            <li><a href="#about">О товаре</a></li>
+            <li><a href="#adv">Преимущества</a></li>
+            <li><a href="#how">Галерея</a></li>
+            <li><a href="#feedbacks">Отзывы</a></li>
+            <li><a href="#delivery">Как купить</a></li>
+            <li><a href="#form-section" class="show-callback">Заказать</a></li>
+        </ul>
+    </div>
+</div>
+<div class="block-1">
+    <div class="container">
+        <div class="heading">
+            <h1>Большая распродажа клатчей </h1>
+            <h2>Элегантный и практичный аксессуар для мужчин! Великолепный подарок! </h2>
+            <h2>Самая низкая цена в Украине до конца дня!</h2>
+        </div>
+        <div class="sale-wrap">
+            закажи клатч <br/> прямо сейчас со скидкой<br>
+            <p style="font-size:15px;">и получи подарок-сюрприз!</p>
+            <div class="badge">
+                58%
+            </div>
+        </div>
+        <div class="wallet-wrap">
+            <img src="images/shadow-bottom.png" alt="клатч Baellerry" title="клатч Baellerry"
+                 class="shadow-bottom"/>
+            <img src="images/wlt_black.png" alt="клатч Baellerry" title="клатч Baellerry" class="wallet black"/>
+            <img src="" class="wallet blue"/>
+            <img src="" class="wallet gold"/>
+            <img src="" class="wallet red"/>
+        </div>
+        <img src="images/arrow-red-down-from-left.png" alt="клатч Baellerry" title="клатч Baellerry" class="arrow"/>
+
+        <span class="choose-your-color">Выбери свой клатч</span>
+
+        <div class="wallets-left">
+            <div class="number">
+                0021
+            </div>
+            <p>Осталось клатчей по акционной цене</p>
+        </div>
+        <div class="sale">
+            <span class="old">Полная цена <br/> <span>600</span> грн</span>
+            <img src="images/cross-cost.png" alt="клатч Baellerry" title="клатч Baellerry" class="cross-cost"/>
+            <span class="new">Цена со скидкой <br/> <span>250</span> грн</span>
+
+            <form action="order.php" method="post"
+                  onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
+                <input type="text" name="name" placeholder="Введите Ф.И.О" required="">
+                <input type="text" name="phone" placeholder="Введите телефон" required="">
+                <button class="red-btn">ЗАКАЗАТЬ КЛАТЧ</button>
+                <p> ПОДАРОК КАЖДОМУ ПОКУПАТЕЛЮ!</p>
+            </form>
+
+        </div>
+        
+
+    </div>
+
+</div>
+
+<div class="block-3" id="adv">
+    <div class="container">
+        <h1>
+            Он притягивает деньги и говорит о вашем безупречном вкусе!
+        </h1>
+        <img src="images/wallet.png" alt="клатч Baellerry" title="клатч Baellerry" class="wallet"/>
+        <img src="images/bulls-round.png" alt="клатч Baellerry" title="клатч Baellerry" class="bulls"/>
+        <div class="feature-1">Защитное покрытие под позолоту</div>
+        <div class="feature-2">Аккуратные швы-невидимки</div>
+        <div class="feature-3">Фирменная фурнитура из прочной стали</div>
+        <div class="feature-4">Сверхпрочный материал - экокожа</div>
+    </div>
+</div>
+
+<div class="block-6">
+    <div class="container">
+        
+        <div class="border"></div>
+
+        <img src="images/block-6-bg.png" alt="клатч Baellerry" title="клатч Baellerry" class="shadow-bottom"/>
+        <div class="sale-wrap">
+            закажи клатч <br/> прямо сейчас со скидкой<br>
+            <p style="font-size:15px;">и получи подарок-сюрприз!</p>
+            <div class="badge">
+                58%
+            </div>
+        </div>
+        <span class="choose-your-color">Выбери свой клатч</span>
+        <div class="wallet-wrap">
+            <img src="images/wlt_black.png" alt="клатч Baellerry" title="клатч Baellerry" class="wallet black"/>
+        </div>
+        <img src="images/arrow-red-down-from-left.png" alt="клатч Baellerry" title="клатч Baellerry" class="arrow"/>
+        <div class="wallets-left">
+            <div class="number">
+                0021
+            </div>
+            <p>Осталось клатчей по акционной цене</p>
+        </div>
+        <div class="sale">
+            <span class="old">Полная цена <br/> <span>600</span> грн</span>
+            <img src="images/cross-cost.png" alt="клатч Baellerry" title="клатч Baellerry" class="cross-cost"/>
+            <span class="new">Цена со скидкой <br/> <span>250</span> грн</span>
+            <form action="order.php" method="post"
+                  onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
+                <input type="text" name="name" placeholder="Введите Ф.И.О" required="">
+                <input type="text" name="phone" placeholder="Введите телефон" required="">
+                <button class="red-btn">ЗАКАЗАТЬ КЛАТЧ</button>
+                <p>ПОДАРОК КАЖДОМУ ПОКУПАТЕЛЮ!</p>
+            </form>
+        </div>
+        
+    </div>
+
+</div>
+<div class="block-11">
+    <div class="container">
+        <h1>Характеристики клатча</h1>
+        <div class="bull">
+            <p>- Размеры 21х10х2.5 см.<br>
+			- Кожа с износостойким покрытием.<br>
+			- Стальная фурнитура</p>
+        </div>
+        <div class="bull">
+            <p>- Молния выдерживает 100 000
+  открываний (более 3-х лет интенсивного использования).</p>
+        </div>
+        <div class="bull">
+            <p>- 4 отделения для купюр.<br>
+- Отделение для мелочи.<br>
+- 10 отделений для карт.</p>
+        </div>
+    </div>
+</div>
+<div class="block-8" id="how">
+    <div class="container">
+        <h1>ВЫБЕРИТЕ СВОЙ КЛАТЧ </h1>
+        <h2></h2>
+        <img src="images/border-block-8.png" alt="клатч Baellerry" title="клатч Baellerry" class="border"/>
+        <div class="owl-carousel owl-theme">
+            <div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/2.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/3.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/4.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/5.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/13.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/6.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/7.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/8.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+			<div class="foto-galery">
+                <div class="carousel-image"><img src="images/slider-wlt/9.jpg" alt="wallet image"> <span
+                        class="red-btn show-form slider-btn">заказать</span></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="block-9" id="">
+    <div class="container">
+        <h1>Взгляните на фото поближе</h1>
+        <h2>для увеличения нажмите по фото</h2>
+        <!--<img src="images/border-block-8.png" alt="Взгляните на фото поближе" title="Взгляните на фото поближе" class="border"/>-->
+        <div class="lightbox__item">
+            <a href="images/gallery/1.jpg" data-lightbox="roadtrip"><img src="images/gallery/1.jpg" alt="wallet image"></a>
+            <a href="images/gallery/2.jpg" data-lightbox="roadtrip"><img src="images/gallery/2.jpg" alt="wallet image"></a>
+            <a href="images/gallery/3.jpg" data-lightbox="roadtrip"><img src="images/gallery/3.jpg" alt="wallet image"></a>
+            <a href="images/gallery/4.jpg" data-lightbox="roadtrip"><img src="images/gallery/4.jpg" alt="wallet image"></a>
+            <a href="images/gallery/5.jpg" data-lightbox="roadtrip"><img src="images/gallery/5.jpg" alt="wallet image"></a>
+            <a href="images/gallery/6.jpg" data-lightbox="roadtrip"><img src="images/gallery/6.jpg" alt="wallet image"></a>
+            <a href="images/gallery/7.jpg" data-lightbox="roadtrip"><img src="images/gallery/7.jpg" alt="wallet image"></a>
+            <a href="images/gallery/8.1.jpg" data-lightbox="roadtrip"><img src="images/gallery/8.1.jpg" alt="wallet image"></a>
+            <a href="images/gallery/9.1.jpg" data-lightbox="roadtrip"><img src="images/gallery/9.1.jpg" alt="wallet image"></a>
+        </div>
+
+    </div>
+</div>
+
+<div class="block-10">
+    <div class="container">
+
+        <img src="images/arrow-red-down-from-right.png" alt="клатч Baellerry" title="клатч Baellerry"
+             class="arrow"/>
+
+        <div class="border"></div>
+
+        <img src="images/block-6-bg.png" alt="клатч Baellerry" title="клатч Baellerry" class="shadow-bottom"/>
+        <div class="sale-wrap">
+            закажи клатч <br/> прямо сейчас со скидкой<br>
+            <p style="font-size:15px;">и получи подарок-сюрприз!</p>
+            <div class="badge">
+                58%
+            </div>
+        </div>
+        <span class="choose-your-color">Выбери свой клатч</span>
+        <div class="wallet-wrap">
+            <img src="images/wlt_black.png" alt="клатч Baellerry" title="клатч Baellerry" class="wallet black"/>
+            <img src="" class="wallet blue"/>
+            <img src="" class="wallet gold"/>
+            <img src="" class="wallet red"/>
+        </div>
+        <img src="images/arrow-red-down-from-left.png" alt="клатч Baellerry" title="клатч Baellerry" class="arrow"/>
+
+        <div class="wallets-left">
+            <div class="number">
+                0021
+            </div>
+            <p>Осталось клатчей по акционной цене</p>
+        </div>
+        <div class="sale">
+            <span class="old">Полная цена <br/> <span>600</span> грн</span>
+            <img src="images/cross-cost.png" alt="клатч Baellerry" title="клатч Baellerry" class="cross-cost"/>
+            <span class="new">Цена со скидкой <br/> <span>250</span> грн</span>
+            <form action="order.php" method="post"
+                  onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
+                <input type="text" name="name" placeholder="Введите Ф.И.О" required="">
+                <input type="text" name="phone" placeholder="Введите телефон" required="">
+                <button class="red-btn">ЗАКАЗАТЬ КЛАТЧ</button>
+                <p>ПОДАРОК КАЖДОМУ ПОКУПАТЕЛЮ!</p>
+            </form>
+        </div>
+        
+    </div>
+</div>
+<div class="block-11">
+    <div class="container">
+        <h1>3 причины купить клатч здесь и сейчас:</h1>
+        <div class="bull">
+            <img src="images/bull-10-1.png" alt="клатч Baellerry" title="Клатч Baellerry"/>
+            <p>Быстрая Доставка (1-2 дня)</p>
+        </div>
+        <div class="bull">
+            <img src="images/bull-10-2.png" alt="клатч Baellerry" title="Клатч Baellerry"/>
+            <p>Соответствие цена-качество</p>
+        </div>
+        <div class="bull">
+            <img src="images/bull-10-3.png" alt="клатч Baellerry" title="Клатч Baellerry"/>
+            <p>Гарантия возврата денег в течение 14 дней, если клатч не понравится</p>
+        </div>
+    </div>
+</div>
+<div class="block-12" id="feedbacks">
+    <div class="container">
+        <img src="images/border-block-11.png" alt="клатч Baellerry" title="клатч Baellerry" class="border"/>
+        <h1>
+            Более 1000 клиентов уже получили свой клатч <br/>
+            и готовы поделиться впечатлениями:
+        </h1>
+
+        <ul class="slider">
+            <li class="active">
+                <div class="profile">
+                    <img src="images/bull-11-1.png" alt="клатч Baellerry" title="клатч Baellerry" class="girl"/>
+
+                </div>
+                <div class="feedback">
+                    <h2>Ношу уже полгода. Клатч надежный и устойчивый</h2>
+                    <h3 class="name">Игорь Петрович, Киев</h3>
+                    <p>
+                        Клатч выше всяких похвал! Ношу уже полгода. Клатч надежный и устойчивый. А еще коллега заинтересовался, посоветую ему купить у вас:)
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="profile">
+                    <img src="images/bull-11-2.png" alt="клатч Baellerry" title="клатч Baellerry" class="girl"/>
+
+                </div>
+                <div class="feedback">
+                    <h2>Права, деньги, карточки, паспорт, айфон - все умещается в этот стильный клатч!</h2>
+                    <h3 class="name">Дмитрий Самоенко,
+
+Львов</h3>
+                    <p>
+                        Купил себе кошелек-клатч Vorpe. Кожа приятная на ощупь, клатч вместительный. Права, деньги, карточки, паспорт, айфон - все умещается в этот стильный аксессуар! Один только минус - много лучше не пихать, не застегнется... Спасибо, ребята!
+                    </p>
+                </div>
+
+            </li>
+
+            <li>
+                <div class="profile">
+                    <img src="images/bull-11-3.png" alt="клатч Baellerry" title="клатч Baellerry" class="girl"/>
+
+                </div>
+                <div class="feedback">
+                    <h2>Быстро, качественно и самое главное не дорого)</h2>
+                    <h3 class="name">Анна Козарь, Одесса</h3>
+                    <p>
+                        Получила посылку. Спасибо большое! Хорошее обслуживание. Быстро, качественно и самое главное не дорого) Мужу понравилось))
+
+                    </p>
+                </div>
+
+            </li>
+			<li>
+                <div class="profile">
+                    <img src="images/bull-11-4.png" alt="клатч Baellerry" title="клатч Baellerry" class="girl"/>
+
+                </div>
+                <div class="feedback">
+                    <h2>Кожа качественная, нитки не торчат - менеджер не обманула</h2>
+                    <h3 class="name">Денис Смаглюк, Ирпень</h3>
+                    <p>Больше всего боялся, что придет не тот клатч, который я ожидал. Получил - кожа качественная, нитки не торчат - менеджер не обманула. За подарок отдельное спасибо)    
+                    </p>
+                </div>
+
+            </li>
+        </ul>
+
+        <div class="controls">
+            <div class="checkers">
+                <div class="active"></div>
+                <div></div>
+                <div></div>
+            </div>
+            <img src="images/arrow-left-slider.png" alt="клатч Baellerry" title="клатч Baellerry" class="prev"/>
+            <img src="images/arrow-right-slider.png" alt="клатч Baellerry" title="клатч Baellerry" class="next"/>
+        </div>
+
+    </div>
+    <div class="yellow-lane"></div>
+</div>
+
+<div class="block-13" id="delivery">
+    <div class="container">
+        <h1>Всего 4 шага и ОН ваш!</h1>
+        <img src="images/bulls-block-12.png" alt="клатч Baellerry" title="клатч Baellerry"/>
+        <div class="bulls">
+            <div class="bull">
+                <h1>ШАГ 1.</h1>
+                <p>Вы оставляете заявку на сайте или по телефону</p>
+                <div class="red-btn show-form">Оставить заявку</div>
+                <img src="images/arrow-gold-down-from-left.png" alt="клатч Baellerry" title="клатч Baellerry"/>
+            </div>
+            <div class="bull">
+                <h1>ШАГ 2.</h1>
+                <p>Мы связываемся с вами и оформляем покупку</p>
+            </div>
+            <div class="bull">
+                <h1>ШАГ 3.</h1>
+                <p>Вы получаете клатч на следующий день.
+                    Оплата при получении
+                </p>
+            </div>
+            <div class="bull">
+                <h1>ШАГ 4.</h1>
+                <p>
+                    Вы становитесь обладателем незаменимого аксессуара для настоящих мужчин!
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block-14" id="form-section">
+    <div class="container">
+        <div class="border"></div>
+
+        <img src="images/block-6-bg.png" alt="клатч Baellerry" title="клатч Baellerry" class="shadow-bottom"/>
+        <div class="sale-wrap">
+            закажи клатч <br/> прямо сейчас со скидкой<br>
+            <p style="font-size:15px;">и получи подарок-сюрприз!</p>
+            <div class="badge">
+                58%
+            </div>
+        </div>
+        <span class="choose-your-color">Выбери свой клатч</span>
+        <div class="wallet-wrap">
+            <img src="images/wlt_black.png" alt="клатч Baellerry" title="клатч Baellerry" class="wallet black"/>
+            <img src="" class="wallet blue"/>
+            <img src="" class="wallet gold"/>
+            <img src="" class="wallet red"/>
+        </div>
+        <img src="images/arrow-red-down-from-left.png" alt="клатч Baellerry" title="клатч Baellerry" class="arrow"/>
+
+        <div class="wallets-left">
+            <div class="number">
+                0021
+            </div>
+            <p>Осталось клатчей по акционной цене</p>
+        </div>
+        <div class="sale">
+            <span class="old">Полная цена <br/> <span>600</span> грн</span>
+            <img src="images/cross-cost.png" alt="клатч Baellerry" title="клатч Baellerry" class="cross-cost"/>
+            <span class="new">Цена со скидкой <br/> <span>250</span> грн</span>
+            <form action="order.php" method="post"
+                  onsubmit="if(this.name.value==''){alert('Введите Ваше имя');return false}if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}return true;">
+                <input type="text" name="name" placeholder="Введите Ф.И.О" required="">
+                <input type="text" name="phone" placeholder="Введите телефон" required="">
+                <button class="red-btn">ЗАКАЗАТЬ КЛАТЧ</button>
+                <p>ПОДАРОК КАЖДОМУ ПОКУПАТЕЛЮ!</p>
+            </form>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
